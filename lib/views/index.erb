@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>The Gossip Project</title>
+  </head>
+  <body>
+    <h1>Mon super site de gossip, depuis le dossier views !</h1>
+    <p>Créé un nouveau potin <a href="/gossips/new/">ici</a>.</p>
+    <p>Voici la liste de tous les potins :</p>
+      <p>
+        <% gossips.each_with_index do |gossip, index| %>
+          <a href="/gossips/<%= index %>"><%= index %></a>
+      </p>
+    <% end %>
+  </body>
+</html>
