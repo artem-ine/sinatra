@@ -1,0 +1,1 @@
+sinatra creates a small website where one can put in gossip and browse through gossip inputed by other users. run config.ru to see it. 

@@ -7,5 +7,6 @@
     <p>Voici la page du potin <%= params[:id] %>.</p>
     <p>Son auteur: <%= gossip.author %></p>
     <p>Le contenu du potin: <%= gossip.content %></p>
+    <p><a href="/gossips/<%=params[:id]%>/edit_gossip">Modifie cet potin en cliquant ici.</p>
   </body>
 </html>
